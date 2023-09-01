@@ -58,3 +58,26 @@ To install and run the Text Summarizer project locally, follow these steps:
 
    ```bash
    pip install -r requirements.txt
+  
+8. Run the Django development server:
+
+   ```bash
+   python manage.py runserver
+   
+9. Access the application in your web browser at http://localhost:8000/.
+
+## Usage
+
+1. Visit the web application in your browser.
+2. Enter the text you want to summarize in the provided text box.
+3. Click the "Summarize" button.
+4. The summary will be displayed on the output page.
+5. If the input text is in Tamil, the summary will also be translated to Tamil and displayed.
+
+## Contributing
+
+Contributions to this project are welcome. If you have suggestions, improvements, or bug fixes, please feel free to [open an issue](https://github.com/RiddhimanRaguraman/text-summarizer/issues) or submit a [pull request](https://github.com/RiddhimanRaguraman/text-summarizer/pulls).
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
